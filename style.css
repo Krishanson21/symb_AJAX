@@ -1,22 +1,15 @@
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background: #f2f2f2;
+  background: white;
   color: #111;
   min-height: 100vh;
-  font-size: 19px;   /* add this */
+  font-size: 19px;   
 }
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background: #fff;
-  color: #111;
-  min-height: 100vh;
 }
 
 
@@ -34,7 +27,6 @@ body {
   letter-spacing: -0.5px;
 }
 
-/* Search Bar */
 .search-wrapper {
   position: relative;
   margin-bottom: 28px;
@@ -173,14 +165,14 @@ body {
 
 
 .detail-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 36px 24px 60px;
+  max-width: 1200px;
+  margin: 0 160px;
+  padding: 0px 24px 50px;
 }
 
 .back-link {
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
   color: #1a73e8;
   text-decoration: none;
   font-size: 0.95rem;
@@ -193,14 +185,14 @@ body {
 
 /* Detail header */
 .detail-title {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 15px;
   color: #111;
   letter-spacing: -0.5px;
 }
 
-/* Detail top section: flag + info side by side */
 .detail-top {
   display: flex;
   gap: 48px;
@@ -210,23 +202,26 @@ body {
 }
 
 .detail-flag {
-  width: 380px;
+  width: 550px;
   max-width: 100%;
   border-radius: 4px;
+  margin-left: 15px;
   display: block;
   object-fit: cover;
 }
 
 .detail-info-table {
   flex: 1;
-  min-width: 220px;
+  min-width: 230px;
 }
 
 .detail-info-table p {
-  font-size: 0.97rem;
+  font-size: 1.3rem;
+  margin-left: 20px;
+  font-weight: 500;
   color: #222;
-  line-height: 1.8;
-  padding: 2px 0;
+  line-height: 1.7;
+  padding: 2px;
 }
 
 .detail-info-table p strong {
@@ -236,16 +231,16 @@ body {
 
 /* Neighbours Section */
 .neighbours-section {
-  border: 1.5px solid #ddd;
-  border-radius: 8px;
+  border: 1.5px solid #515151;
+  border-radius: 2px;
   padding: 28px 28px 20px;
   background: #fff;   
 }
 
 .neighbours-title {
-  font-size: 1.15rem;
+  font-size: 1.7rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   color: #111;
 }
 

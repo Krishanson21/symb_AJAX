@@ -19,7 +19,7 @@ function getTime() {
 function makeCard(c) {
   return `
   <div class="country-card">
-    <img class="country-flag" src="${c.flags.png}">
+    <img class="country-flag" src="${c.flags.png}" onerror="this.src='${c.flags.svg}'">
     <div class="country-info">
       <div>
         <div class="country-name">${c.name.common}</div>
